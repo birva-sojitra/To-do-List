@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d89797;
+
+}
+
+#add-form {
+  margin-bottom: 20px;
+ 
+}
+
+.new-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #d89797;
+  border-radius: 5px;
+}
+
+.item.completed {
+  background-color: #f68ef6;
+}
+
+.new-item-text {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.remove-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
